@@ -76,3 +76,29 @@
         font-size: 1.7rem;
     }
 }
+
+@media (min-width: 1440px) {
+   
+    .hero__container {
+        gap:2rem;
+    }
+    
+    .hero__title {
+        text-align: center;
+        font-size: 4rem;
+        font-weight: 600;
+    }
+
+    .hero__text {
+        font-size: 2.5rem;
+        text-align: justify;
+        line-height: 3rem;
+    }
+
+    .hero__btn {
+        margin-top: 2rem;
+        width: 15rem;
+        height: 5rem;
+        font-size: 1.7rem;
+    }
+}
