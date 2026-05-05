@@ -20,13 +20,14 @@
 
 .hero__btn {
     display: flex;
-    background-color: #a2c0dd;
+    background-color: #bb9154;
     width: 20rem;
     height: 8rem;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
+    border-radius: 5px;
 }
 
 @media (min-width: 320px) and (max-width: 425px) {

@@ -1,6 +1,7 @@
 .cabecalho{
-    background-color: #c8cdd4;
-    width: 100%
+    background: linear-gradient(10deg, rgb(96, 58, 90), rgb(102, 102, 102),rgb(6, 56, 93));
+    width: 100%;
+    height: auto;
 }
 
 .cabecalho__ul{
@@ -11,9 +12,10 @@
 } 
 
 .cabecalho__a{
-    background-color: #a2c0dd;
+    background-color: #bb9154;
     display: inline-block;
     border-radius: 5px;
+    color: #fff;   
 }
 
 .cabecalho__a:hover {
@@ -65,6 +67,7 @@
 }
 
 @media (min-width: 1440px){
+    
     .cabecalho__ul{
         flex-wrap: wrap;
         align-content: center;
@@ -72,7 +75,7 @@
     }
 
     .cabecalho__li{
-        margin:2%;
+        margin:1rem 2rem;
         width: 20%;
         display: inline-block;
     }
