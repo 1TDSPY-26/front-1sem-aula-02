@@ -10,6 +10,7 @@
 </head>
 
 <body>
+
     <header class="cabecalho">
         <nav aria-label="Menu de navegação principal" class="cabecalho__nav">
             <ul class="cabecalho__ul">
@@ -26,17 +27,27 @@
             <div class="hero__container hero__container--index">
                 <h1 class="hero__title">CONTROLE DE ACESSO</h1>
 
-                    <form action="#" method="GET">
-                        <fieldset>
-                            <legend>LOGIN</legend>
-                            <div>
-                                <label for="">Email</label>
-                                <input type="" name="" id="">
-                            </div>
-                        </fieldset>
-                    </form>
+                <form action="#" method="GET">
+                    <fieldset>
+                        <legend>LOGIN</legend>
+                        <div>
+                            <label for="idEmail">Email</label>
+                            <input type="email" name="email" id="idEmail" placeholder="Digite seu email" minlength="13"
+                                maxlength="150" required>
+                        </div>
+                        <div>
+                            <label for="idSenha">Senha</label>
+                            <input type="password" name="senha" id="idSenha" placeholder="Digite sua Senha" minlength="13"
+                                maxlength="150" required oninvalid="setCustomValidity('Verifique suas informações!')">
+                        </div>
+                        <div>
+                            <button type="submit" id="btnEntrar">Entrar</button>
+                        </div>
+                    </fieldset>
+                </form>
 
-                Não tem registro?<a aria-label="Para se cadastrar no sistema." class="hero__btn" href="./cadastro.html">clique aqui</a>
+                Não tem registro?<a aria-label="Para se cadastrar no sistema." class="hero__btn"
+                    href="./cadastro.html">clique aqui</a>
             </div>
         </section>
     </main>
