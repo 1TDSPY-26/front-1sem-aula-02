@@ -1,6 +1,7 @@
 .cabecalho{
-    background-color: #c8cdd4;
-    width: 100%
+    background: linear-gradient(10deg, rgb(96, 58, 90), rgb(102, 102, 102),rgb(6, 56, 93));
+    width: 100%;
+    height: auto;
 }
 
 .cabecalho__ul{
@@ -8,12 +9,13 @@
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: center;
-}
+} 
 
 .cabecalho__a{
-    background-color: #a2c0dd;
+    background-color: #bb9154;
     display: inline-block;
     border-radius: 5px;
+    color: #fff;   
 }
 
 .cabecalho__a:hover {
@@ -37,6 +39,49 @@
 
     .cabecalho__a{
         font-size: 1.2rem;
+        display: block;
+        padding: 0.5rem 1rem;
+        text-align: center;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .cabecalho__ul{
+        flex-wrap: wrap;
+        align-content: center;
+    }
+
+    .cabecalho__li{
+        margin:2%;
+        width: 20%;
+        display: inline-block;
+    }
+
+    .cabecalho__a{
+        font-size: 2rem;
+        display: block;
+        padding: 0.5rem 1rem;
+        text-align: center;
+    }
+}
+
+@media (min-width: 1440px){
+    
+    .cabecalho__ul{
+        flex-wrap: wrap;
+        align-content: center;
+        list-style: none;
+    }
+
+    .cabecalho__li{
+        margin:1rem 2rem;
+        width: 20%;
+        display: inline-block;
+    }
+
+    .cabecalho__a{
+        font-size: 2rem;
         display: block;
         padding: 0.5rem 1rem;
         text-align: center;

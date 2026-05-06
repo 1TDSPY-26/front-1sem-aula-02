@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-size: 100%;
     font-weight: normal;
+    list-style: none;
 }
 
 html{
@@ -15,7 +16,12 @@ body{
     font-size: 2rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     width: 100%;
-    height: 100vh;
+    height: 100%;
+    background: linear-gradient(145deg, rgb(96, 58, 90) 1%, rgb(102, 102, 102) 50%,rgb(6, 56, 93) 60% );
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
 }
 
 main{
